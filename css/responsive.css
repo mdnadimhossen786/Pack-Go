@@ -1,0 +1,256 @@
+
+
+@media (max-width: 575.98px) {
+
+    /* ============== Menu Part Start ==============*/
+    .main_menu {
+        padding: 15px 0 !important;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu ul {
+        gap: 15px;
+        text-align: center;
+    }
+
+    .menu_button {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    /* ============== Menu Part End ==============*/
+    /* ============== Banner Part Start ==============*/
+    #banner {
+        padding: 80px 0 80px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .banner_text p {
+        width: 100%;
+        line-height: 25px;
+        margin: 15px 0 20px 0;
+    }
+
+    .banner_search {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .banner_search .search_button {
+        width: 30%;
+    }
+
+    .search_button button {
+        padding: 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* ============== Banner Part End ==============*/
+    /* ============== Travel Part Start ==============*/
+    #travel {
+        padding: 60px 0;
+    }
+
+    .travel_heading {
+        margin-bottom: 40px;
+    }
+
+    .travel_heading p {
+        width: 100%;
+        margin: 15px auto 0;
+    }
+
+    .travel_item {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .travel_item .travel_image {
+        padding: 18px 24px;
+        margin: auto;
+    }
+
+    /* ============== Travel Part End ==============*/
+    /* ============== Destination Part Start ==============*/
+    #destination {
+        padding-bottom: 60px;
+    }
+
+    .dest_heading p {
+        width: 100%;
+        margin: 20px auto 0;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .dest_slider .slick-dots li button {
+        width: 30px;
+        height: 30px;
+        font-size: 0;
+        border-radius: 50%;
+        border: none;
+        background: #7bdec5;
+
+    }
+
+    .dest_slider .slick-dots .slick-active button {
+        background: #007F5F;
+    }
+
+    /* ============== Destination Part End ==============*/
+    /* ============== Counter Part Start ==============*/
+    #counter {
+        padding: 60px 0;
+    }
+
+    .counter_text h2 {
+        width: 100%;
+    }
+
+    .counter_text>p {
+        width: 100%;
+    }
+
+    .counter_text ul li {
+        width: 100%;
+    }
+
+    .counter_item {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .counter_item .counter_icon {
+        margin: auto;
+    }
+
+    /* ============== Counter Part End ==============*/
+    /* ============== Place Part Start ==============*/
+    #place {
+        padding: 60px 0;
+    }
+
+    .places_text h2 {
+        width: 100%;
+    }
+
+    .places_text>p {
+        width: 100%;
+    }
+
+    .places_images_1 .places_search {
+        display: none;
+    }
+
+    .place_img {
+        margin-top: 25px;
+    }
+
+    .places_text ul li {
+        flex-direction: column;
+    }
+
+    .place_accordion {
+        width: 100%;
+    }
+
+    .places_cont_1 {
+        display: none;
+    }
+
+    .places_cont_2 {
+        display: none;
+    }
+
+    .places_cont_3 {
+        display: none;
+    }
+
+    /* ============== Place Part End ==============*/
+    /* ============== Explore Part Start ==============*/
+
+
+    #explore{
+        padding-bottom: 60px;
+    }
+    .explore_text p {
+        width: 100%;
+    }
+
+    .explore_nav button {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .explore_nav .nav {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    /* ============== Explore Part End ==============*/
+    /* ============== test Part Start ==============*/
+    #testimonial{
+        padding-bottom: 60px;
+    }
+    .text_img {
+        position: relative;
+        display: none;
+    }
+    .test_slider .slick-dots {
+        position: initial;
+    }
+    .test_slider_text h2{
+        width: 100%;
+    }
+    /* ============== test Part End ==============*/
+    /* ============== Subscribe Part Start ==============*/
+    #subscribe {
+        padding: 60px;
+    }
+    .subscribe_text h2 {
+        width: 100%;
+    }
+    .subscribe_text p {
+        width: 100%;
+    }
+    .input_button {
+        width: 100%;
+    }
+    .input_button button {
+        padding: 15px 2px;
+        background: #007F5F;
+    }
+    .input_button input {
+        width: 100%;
+    }
+    /* ============== Subscribe Part End ==============*/
+    /* ============== Fotter Part Start ==============*/
+    #fotter {
+        padding: 60px 0 25px 0;
+    }
+    .fotter_text p {
+        width: 70px;
+        line-height: 25px;
+    }
+    .fotter_text h2 {
+        margin-bottom: 10px;
+    }
+    /* ============== Fotter Part End ==============*/
+}
